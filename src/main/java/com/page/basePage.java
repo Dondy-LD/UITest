@@ -10,7 +10,7 @@ public class basePage {
 	
 	public static void openBaidu() throws InterruptedException {
         //封装打开首页
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dondy\\git\\AutoTest01\\src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Jenkins\\workspace\\UITest\\src\\main\\resources\\chromedriver.exe");
         String Url = "https://www.baidu.com";
         driver =new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
